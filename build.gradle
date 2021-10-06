@@ -62,7 +62,7 @@ repositories {
 ext {
     versions = [
         "opensearch": es_version,
-        "prometheus"   : "0.8.0",
+        "prometheus"   : "0.12.0",
         "log4j"        : "2.11.1",
         "junit"        : "4.12"
     ]
