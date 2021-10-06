@@ -4,17 +4,13 @@ on:
   push:
     branches:
       - "master"
-      - "5.x"
-      - "6.x"
   pull_request:
     branches:
       - "master"
-      - "5.x"
-      - "6.x"
 
 env:
   gradle-version: "6.9"
-  java-version: "15"
+  java-version: "16"
 
 jobs:
   build:
